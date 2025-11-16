@@ -16,5 +16,6 @@ class Solution {
 }
 
 $solution = new Solution();
-$sum = $solution->twoSum([3,2,2,3], 3);
-print_r($sum);
+$result = $solution->twoSum([3, 2, 2, 3], 4);
+
+print_r($result);
